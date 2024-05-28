@@ -26,6 +26,18 @@ Navigate to the game directory and run the main game script:
 cd pygame-tic-tac-toe
 python main.py
 ```
+
+## Audio Credits
+select.mp3 - Sound Effect by [u_2fbuaev0zn from Pixabay](https://pixabay.com/users/u_2fbuaev0zn-30247713/)
+game music.mp3 - 
+input sound.mp3 -
+error.mp3 - 
+level-win.mp3 - 
+tie-game.mp3 - 
+turn.mp3 - 
+
+
+
 ## Acknowledgements
 - [Pygame](https://www.pygame.org/)
 
