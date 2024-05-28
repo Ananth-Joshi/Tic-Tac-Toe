@@ -34,8 +34,13 @@ python main.py
 - error.mp3 - Sound Effect from [Pixabay](https://pixabay.com/) 
 - level-win.mp3 - Sound Effect from [Pixabay](https://pixabay.com/) 
 - tie-game.mp3 - Sound Effect from [Pixabay](https://pixabay.com/) 
-- turn.mp3 - 
+- turn.mp3 -
 
+## Screenshots
+![Screenshot from 2024-05-28 23-57-05](https://github.com/Ananth-Joshi/Tic-Tac-Toe/assets/75669039/0a8c7435-f935-44c8-934f-5ed0e5be0428)
+![Screenshot from 2024-05-28 23-57-10](https://github.com/Ananth-Joshi/Tic-Tac-Toe/assets/75669039/ce762c51-7b71-4d57-8caa-c9f6f2803085)
+![Screenshot from 2024-05-28 23-57-22](https://github.com/Ananth-Joshi/Tic-Tac-Toe/assets/75669039/2e0caf76-3a10-4b09-a575-c763c8d370ff)
+![Screenshot from 2024-05-28 23-57-30](https://github.com/Ananth-Joshi/Tic-Tac-Toe/assets/75669039/bd0e4da5-90c9-4092-adc5-69a94706a769)
 
 
 ## Acknowledgements
