@@ -29,10 +29,10 @@ python main.py
 
 ## Audio Credits
 - select.mp3 - Sound Effect by [u_2fbuaev0zn from Pixabay](https://pixabay.com/users/u_2fbuaev0zn-30247713/)
-- game music.mp3 - 
+- game music.mp3 -
 - input sound.mp3 -
-- error.mp3 - 
-- level-win.mp3 - 
+- error.mp3 - Sound Effect from [Pixabay](https://pixabay.com/) 
+- level-win.mp3 - Sound Effect from [Pixabay](https://pixabay.com/) 
 - tie-game.mp3 - 
 - turn.mp3 - 
 
