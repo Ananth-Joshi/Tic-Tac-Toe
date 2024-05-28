@@ -6,7 +6,7 @@ white=(255,255,255)
 
 
 #load font
-headFont=pg.font.Font('PartyConfettiRegular-eZOn3.ttf',50)
+headFont=pg.font.Font('fonts/PartyConfettiRegular-eZOn3.ttf',50)
 textFont=pg.font.SysFont('Times New Roman',20)
 
 #pointer object

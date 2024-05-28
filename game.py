@@ -50,8 +50,7 @@ def game(talkObj):
     scrW,scrH=pg.display.get_surface().get_size()
     headFontSize=int(scrH/8)
     #load font
-    headFont=pg.font.Font('PartyConfettiRegular-eZOn3.ttf',headFontSize)
-    optionFont=pg.font.Font('PartyConfettiRegular-eZOn3.ttf',int(headFontSize/2))
+    headFont=pg.font.Font('fonts/PartyConfettiRegular-eZOn3.ttf',headFontSize)
 
     #Make list of 9 block objects i.e, board, define the block boundaries and find center of each block.
     ls=[]

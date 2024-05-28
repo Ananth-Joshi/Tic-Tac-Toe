@@ -36,8 +36,8 @@ talkObj.mus.play()
 scrW,scrH=talkObj.screen.get_size()
 
 #load font
-headFont=pg.font.Font('PartyConfettiRegular-eZOn3.ttf',int(scrH/4))
-textFont=pg.font.Font('PartyConfettiRegular-eZOn3.ttf',int(scrH/12))
+headFont=pg.font.Font('fonts/PartyConfettiRegular-eZOn3.ttf',int(scrH/4))
+textFont=pg.font.Font('fonts/PartyConfettiRegular-eZOn3.ttf',int(scrH/12))
 
 choicePointer=['>','','','']
 choices=['PLAY','INSTRUCTIONS','OPTIONS','EXIT']
