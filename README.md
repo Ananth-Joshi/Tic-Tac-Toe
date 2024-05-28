@@ -1,4 +1,4 @@
-#Tic-Tac-Toe
+# Tic-Tac-Toe
 
 Welcome to **Tic Tac Toe**! This is a classic Tic Tac Toe game built using the Pygame library.
 
@@ -26,6 +26,8 @@ Navigate to the game directory and run the main game script:
 cd pygame-tic-tac-toe
 python main.py
 ```
+## Acknowledgements
+- [Pygame](https://www.pygame.org/)
 
 
 
