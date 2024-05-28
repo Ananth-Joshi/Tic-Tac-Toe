@@ -16,7 +16,9 @@ To play **Tic Tac Toe**, you need to have Python and Pygame installed.
 
 ## Download the Game
 Clone this repository to your local machine:
+```
 git clone https://github.com/Ananth-Joshi/Tic-Tac-Toe.git
+```
 
 ## Running the Game
 Navigate to the game directory and run the main game script:
