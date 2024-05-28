@@ -1,0 +1,8 @@
+1.The game is played on a 3x3 grid.
+2.Two players take turns placing their mark (X or O) in an empty square
+ on the grid.
+3.The first player to get three of their marks in a row (horizontally,
+ vertically, or diagonally) wins the game.
+4.If all squares are filled and neither player has three in a row, 
+the game is a draw.
+.....PRESS ESC TO RETURN TO MAIN MENU
