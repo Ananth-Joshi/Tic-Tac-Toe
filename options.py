@@ -13,21 +13,17 @@ textFont=pg.font.SysFont('Times New Roman',20)
 pointer=pg.image.load('pointer.png')
 
 
-
+# Working of options page.
 def options(obj):
     pointerY=50
     running=True
-    print('abc')
     while running:
         for event in pg.event.get():
-
                 if event.type==pg.QUIT:
                     return False
-
                 if event.type==pg.KEYDOWN:
                     if event.key==pg.K_ESCAPE:
                         running=False
-
                     if event.key==pg.K_RETURN:
                         if pointerY==50:
                             if obj.musicRunning:
@@ -36,8 +32,6 @@ def options(obj):
                             else:
                                 obj.mus.unpause()
                                 obj.musicRunning=True
-
-
 
         obj.screen.fill(white)
         heading=headFont.render('OPTIONS:',True,red)

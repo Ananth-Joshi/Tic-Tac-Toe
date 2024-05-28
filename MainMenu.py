@@ -46,13 +46,14 @@ pointerPos=0
 
 running=True
 
+#
 def swap(list,x,y):
     list[x],list[y]=list[y],list[x]
 
+
+#working of the main menu
 while running:
-
     talkObj.screen.fill(white)
-
     for event in pg.event.get():
         if event.type==pg.QUIT:
             running=False
@@ -83,6 +84,7 @@ while running:
     talkObj.screen.blit(headFont.render('TIC-TAC-TOE',True,red),((scrW-headW)/2,10))
 
 
+#Render the content
     textW=textFont.size(choicePointer[0]+choices[0])[0]
     talkObj.screen.blit(textFont.render((choicePointer[0]+choices[0]),True,red),((scrW-textW)/2,scrH/2))
     textW=textFont.size(choicePointer[1]+choices[1])[0]

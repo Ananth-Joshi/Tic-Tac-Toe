@@ -45,8 +45,6 @@ def game(talkObj):
     turn=1
     empty=9
     running=True
-     
-
     scrW,scrH=pg.display.get_surface().get_size()
     headFontSize=int(scrH/8)
     #load font
@@ -88,7 +86,7 @@ def game(talkObj):
             ls[i].findCenter()
 
 
-    #Function to draw Board.
+#Function to draw Board.
     def drawBoard():
         pg.draw.line(talkObj.screen,green,((2*scrW/5),scrH/5),((2*scrW/5),(4*scrH/5)),5)
         pg.draw.line(talkObj.screen,green,((3*scrW/5),scrH/5),((3*scrW/5),(4*scrH/5)),5)
@@ -96,7 +94,7 @@ def game(talkObj):
         pg.draw.line(talkObj.screen,green,((scrW/5),(3*scrH/5)),((4*scrW/5),(3*scrH/5)),5)
 
 
-    #Function to draw X and O.
+#Function to draw X and O.
     def drawChar(str,mid):
         if str=='X':
             r=scrW/25
@@ -113,6 +111,7 @@ def game(talkObj):
             pg.draw.circle(talkObj.screen,black,mid,scrW/25,5)
 
 
+#Funtion to detect win.
     def win(a,b,c): 
         nonlocal end
         if(a.contains==b.contains==c.contains=='X') and end==False:
