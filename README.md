@@ -24,7 +24,7 @@ git clone https://github.com/Ananth-Joshi/Tic-Tac-Toe.git
 Navigate to the game directory and run the main game script:
 ```
 cd pygame-tic-tac-toe
-python main.py
+python MainMenu.py
 ```
 
 ## Audio Credits
